@@ -1,0 +1,32 @@
+{
+  "name": "zuripay",
+  "version": "2.1.1",
+  "description": "Node.js SDK for the ZuriPay Payment Gateway. This SDK simplifies integration with the ZuriPay API, providing a type-safe and validated interface for managing payments, customers, payouts, callbacks, payment links, and wallets.",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gurukota/zuripay.git"
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "test": "jest"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/axios": "^0.14.4",
+    "@types/jest": "^30.0.0",
+    "@types/node": "^24.0.13",
+    "jest": "^30.0.4",
+    "ts-jest": "^29.4.0",
+    "typescript": "^5.8.3"
+  },
+  "dependencies": {
+    "axios": "^1.10.0"
+  }
+}
